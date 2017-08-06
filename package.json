@@ -7,7 +7,8 @@
   "main": "truffle.js",
   "scripts": {
     "test": "scripts/test.sh",
-    "coveralls": "scripts/coveralls.sh"
+    "coveralls": "scripts/coveralls.sh",
+    "coverage": "./node_modules/.bin/solidity-coverage"
   },
   "keywords": [
     "token",
@@ -21,6 +22,7 @@
     "babel-register": "^6.23.0",
     "ethereumjs-testrpc": "^4.0.1",
     "truffle": "3.4.5",
+    "solidity-coverage": "^0.2.1",
     "coveralls": "^2.13.1"
   },
   "dependencies": {
